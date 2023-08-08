@@ -67,7 +67,10 @@ while True:
         for i,(new,old) in enumerate(zip(good_new,good_old)):
             a,b = new.ravel()
             c,d = old.ravel()
-            
+            a=int(a)
+            b=int(b)
+            c=int(c)
+            d=int(d)
             distance = calculateDistance(a,b,c,d)
          
             if distance>8:
