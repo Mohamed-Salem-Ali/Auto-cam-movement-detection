@@ -104,6 +104,9 @@ while True:
             cv2.destroyAllWindows()
             cam.release()
         
+
+
+        
     except TypeError as e:
         print(e)
         break
